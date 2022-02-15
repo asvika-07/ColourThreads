@@ -1,180 +1,7 @@
 
 <html>
     <head>
-    <style>
-     body{
-    background-color: #100E0E;
-}
-.navbar{
-    position: absolute;
-    width: 1500px;
-    height: 67px;
-    left: 0px;
-    top: 0px;
-    background: #100E0E;
-}
-
-.hamburgericon{
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 18px;
-    top: 19px;
-}
-
-.logopic{
-    position: absolute;
-    width: 110px;
-    height: 66px;
-    left: 100px;
-    top: 0px;
-    overflow: hidden;
-}
-
-.logoname{
-    position: absolute;
-    width: 305px;
-    height: 66px;
-    left: 210px;
-    top: 0px;
-}
-
-.homeicon{
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 1250px;
-    top: 18px;
-}
-.likeicon{
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 1350px;
-    top: 18px;
-    
-}
-.bagicon{
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 1450px;
-    top: 18px;
-}
-   
-
-        .footer{
-    position: absolute;
-    width: 1550px;
-    height: 500px;
-    left: 0px;
-    top: 4450px;
-    background: #EE519E;
-}
-.footertext1{
-    position: absolute;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 168.99%;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    height:233px;
-    width: 307px;
-    left:250px;
-    top:75px;
-}
-
-.footertext2{
-    position: absolute;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 168.99%;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    height:233px;
-    width: 400px;
-    left: 1125px;
-    top:75px;
- }
- .socialmediaicons p{
-    position: absolute;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 168.99%;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    height:233px;
-    width: 400px;
-    left: 650px;
-    top:75px
- }
-
-#fbicon{
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 580px;
-    top: 150px;
-}
-#twittericon{
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 650px;
-    top: 150px;
-}
-#instaicon{
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 720px;
-    top: 150px;
-}
-#yticon{
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 790px;
-    top: 150px;
-}
-#whatsappicon{
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 860px;
-    top: 150px;
-}
-
-.paymentgateways p{
-    position: absolute;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 168.99%;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    height:233px;
-    width: 400px;
-    left: 650px;
-    top:255px
-}
-#cards{
-    position: absolute;
-width: 533px;
-height: 27px;
-top:350px;
-left:485px;
-
-}
-
-    </style>
+    <link rel="stylesheet" href="./css/base.css">
 </head>
     <body>
         <div class="navbar">
@@ -199,22 +26,22 @@ left:485px;
         </div>
         <div class="footer">
             <div class="footertext1">
-                <p id="contactus">Contact Us</p>
-                <p id="termsandconditions">Terms and Conditions</p>
-                <p id="termsofservice">Terms of service</p>
-                <p id="refundpolicy">Refund Policy</p>
+                <p><a id="contactus" href="contactus.php">Contact Us</a></p>
+                <p><a id="termsandconditions" href="t&c.php">Terms and Conditions</a></p>
+                <p><a id="termsofservice" href="tos.php">Terms of service</a></p>
+                <p><a id="refundpolicy" href="refundpolicy.php">Refund Policy </a></p>
             </div>
             <div class="footertext2">
-                <p id="privacypolicy">Privacy Policy</p>
-                <p id="shippingpolicy">Shipping Policy</p>
-                <p id="exchangepolicy">Exchange Policy</p>
+                <p><a id="privacypolicy" href="privacypolicy.php">Privacy Policy</a></p>
+                <p><a id="shippingpolicy" href="shippingpolicy.php">Shipping Policy</a></p>
+                <p><a id="exchangepolicy" href="exchangepolicy.php">Exchange Policy</a></p>
             </div>
             <div class="socialmediaicons">
                 <p>Connect With Us</p>
-                <img id="fbicon" src="./pictures/facebook.png" alt="whatsapp">
+                <a><img id="fbicon" src="./pictures/facebook.png" alt="whatsapp">
                 <img id="twittericon" src="./pictures/twitter.png" alt="twitter">
-                <img id="instaicon" src="./pictures/instagram.png" alt="instagram">
-                <img id="yticon" src="./pictures/youtube.png" alt="youtube">
+                <a href="https://www.instagram.com/color_threads/"><img id="instaicon" src="./pictures/instagram.png" alt="instagram"></a>
+                <a href="https://www.youtube.com/channel/UCqEUyPyk19zPqi65L9UNYPg"><img id="yticon" src="./pictures/youtube.png" alt="youtube"></a>
                 <img id="whatsappicon" src="./pictures/whatsapp.png" alt="youtube">
             </div>
             <div class="paymentgateways">
