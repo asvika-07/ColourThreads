@@ -2,7 +2,7 @@
  include "base.php";
 ?>
 <head>
-    <title>TOS</title>
+    <title>SHIPPING POLICY</title>
     <style>
         .heading{
             position: absolute;
@@ -64,22 +64,17 @@
         <h3>SHIPPING POLICY</h3>
     </div>
     <div class="para1">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-               It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Our Domestic Shipping Partners are Blue Dart, India Post, Professional Courier & Delhivery,
+            Shipping Time is 1-3 Working Days from the Date of Purchase.<br>
+            Tracking Details will be sent through Email / WhatsApp / SMS in 1-3 working days from the Date of Purchase.
+            The order will be delivered within 2-7 working days from the Date of Shipping.<br>
+            At present, we charge Rs.100 per order for domestic shipping.<br> (Kindly note its per order and not per garment)</p>
     </div>
     <div class="para2">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-               It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>
+        **Important**<br>
+        In rare cases, some orders may get cancelled due to product unavailability or risk mitigation systems.<br>
+         We sincerely apologise for the same</p>
     </div>
     <button class="rect" onclick="window.location.href='home.php'">
         <img src="./pictures/arrow_left.png" >

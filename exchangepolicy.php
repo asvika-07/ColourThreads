@@ -2,7 +2,7 @@
  include "base.php";
 ?>
 <head>
-    <title>TOS</title>
+    <title>Exchange policy</title>
     <style>
         .heading{
             position: absolute;
@@ -64,22 +64,22 @@
         <h3>EXCHANGE POLICY</h3>
     </div>
     <div class="para1">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-               It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>As a company policy we do not provide refund on any product sold. 
+            Once the products are sold they can be exchanged for replacement only. 
+            If you have any change in color of products you have ordered or if the
+            product is damaged, please inform us within 24 hours with opening video of product. 
+            our customer care team will contact you within 1-2 business days and will 
+            guide you through the process of exchanging the product. 
+            We request you to please assist them if they ask you for
+             further information or photographs to access your return request. </p>
     </div>
     <div class="para2">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-               It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>In case the order is cancelled before shipment, the full amount including shipping charge would be refunded
+         via the same mode of payment.
+        The cost for shipping the product back to us is to be borne by you.
+         We will take care of the shipping, when the corrected product is delivered to you. 
+        Please note: All products under SALE or purchased using a coupon/discount code are 
+        not valid for any exchange or return.</p>
     </div>
     <button class="rect" onclick="window.location.href='home.php'">
         <img src="./pictures/arrow_left.png" >

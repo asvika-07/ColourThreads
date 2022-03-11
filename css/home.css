@@ -941,19 +941,10 @@
             top: 4155px;
             background: #EE519E;
             border-radius: 8px;
-          }
-          .subscribebtn{
-            position: absolute;
-            width: 194px;
-            height: 56px;
-            left: 1027px;
-            top: 4123px;
             font-family: Open Sans;
             font-style: normal;
             font-weight: normal;
-            font-size: 36px;
-            line-height: 58px;
-            text-align: center;
+            
             text-transform: capitalize;
             color: #FFFFFF;
           }

@@ -6,22 +6,22 @@
     <body>
         <div class="navbar">
             <div class="hamburgericon">
-                <img src="./pictures/hamburgericon.png" alt="Menuicon">
+                <img src="./pictures/header/hamburgericon.png" alt="Menuicon">
             </div>
             <div class="logopic">
-                <img src="./pictures/logo.png" alt="Logo">
+                <img src="./pictures/header/logo.png" alt="Logo">
             </div>
             <div class="logoname">
-                <img src="./pictures/logoname.png" alt="Logo">
+                <img src="./pictures/header/logoname.png" alt="Logo">
             </div>
             <div class="homeicon">
-                <img src="./pictures/homeicon.png" alt="Home">
+                <img src="./pictures/header/homeicon.png" alt="Home">
             </div >
             <div class="likeicon">
-                <img src="./pictures/likeicon.png" alt="Home">
+                <img src="./pictures/header/likeicon.png" alt="Home">
             </div>
             <div class="bagicon">
-                <img src="./pictures/bagicon.png" alt="Home">
+                <img src="./pictures/header/bagicon.png" alt="Home">
             </div>
         </div>
         <div class="footer">
@@ -38,15 +38,15 @@
             </div>
             <div class="socialmediaicons">
                 <p>Connect With Us</p>
-                <a><img id="fbicon" src="./pictures/facebook.png" alt="whatsapp">
-                <img id="twittericon" src="./pictures/twitter.png" alt="twitter">
-                <a href="https://www.instagram.com/color_threads/"><img id="instaicon" src="./pictures/instagram.png" alt="instagram"></a>
-                <a href="https://www.youtube.com/channel/UCqEUyPyk19zPqi65L9UNYPg"><img id="yticon" src="./pictures/youtube.png" alt="youtube"></a>
-                <img id="whatsappicon" src="./pictures/whatsapp.png" alt="youtube">
+                <a><img id="fbicon" src="./pictures/footer/facebook.png" alt="whatsapp">
+                <img id="twittericon" src="./pictures/footer/twitter.png" alt="twitter">
+                <a href="https://www.instagram.com/color_threads/"><img id="instaicon" src="./pictures/footer/instagram.png" alt="instagram"></a>
+                <a href="https://www.youtube.com/channel/UCqEUyPyk19zPqi65L9UNYPg"><img id="yticon" src="./pictures/footer/youtube.png" alt="youtube"></a>
+                <a href="https://api.whatsapp.com/send?phone=918220492217"><img id="whatsappicon" src="./pictures/footer/whatsapp.png" alt="whatsapp"></a>
             </div>
             <div class="paymentgateways">
                 <p>Payment Gateways</p>
-                <img id="cards" src="./pictures/cards.png" alt="cards">
+                <img id="cards" src="./pictures/footer/cards.png" alt="cards">
             </div>
         </div>
     </body>

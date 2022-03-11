@@ -1,0 +1,116 @@
+.heading{
+    position: absolute;
+    height: 59px;
+    left: 400px;
+    top: 100px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 168.99%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.rect{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 669px;
+    top: 881px;
+    background: #EE519E;
+}
+.footer{
+    position: absolute;
+    top: 1000px;
+}
+.blurrect{
+    position: absolute;
+    width: 725.06px;
+    height: 427.13px;
+    left: 369.7px;
+    top: 265px;
+    background: rgba(196, 196, 196, 0.2);
+    box-shadow: inset 2.49333px -2.49333px 2.49333px rgba(165, 165, 165, 0.6), inset -2.49333px 2.49333px 2.49333px rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(50px);
+}
+.blurcircle1{
+    position: absolute;
+    border-radius: 50%;
+    width: 262.13px;
+    height: 163.84px;
+    left: 470.6px;
+    top: 345px;
+    background: linear-gradient(180deg, #1D69DA 0%, #D01370 100%);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+}
+.blurcircle2{
+    position: absolute;
+    border-radius: 50%;
+    width: 65px;
+    height: 61px;
+    left: 1069px;
+    top: 615px;
+    background: linear-gradient(180deg, #DA1D6F 0%, #EC7070 100%);
+    box-shadow: 0px 4px 23px 18px rgba(0, 0, 0, 0.25);
+}
+.blurcircle3{
+    position: absolute;
+    border-radius: 50%;
+    width: 218.43px;
+    height: 167.91px;
+    left: 905px;
+    top: 340px;
+    background: linear-gradient(180deg, #1D69DA 0%, #D01370 63.54%);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    transform: matrix(-1, 0.01, -0.02, -1, 0, 0);
+}
+.blurcircle4{
+    position: absolute;
+    border-radius: 50%;
+    width: 156.24px;
+    height: 122.74px;
+    left: 742.55px;
+    top: 500px;
+    background: linear-gradient(180deg, #DA1D6F 0%, #EE519E 100%);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+}
+.blurcircle5{
+    position: absolute;
+    border-radius: 50%;
+    width: 121.62px;
+    height: 118.14px;
+    left: 359.89px;
+    top: 600px;
+    background: linear-gradient(180deg, #DA1D6F 0%, #EE519E 100%);
+    box-shadow: 0px 4px 45px 21px rgba(0, 0, 0, 0.25);
+}
+.blurcircle6{
+    position: absolute;
+    border-radius: 50%;
+    width: 122.63px;
+    height: 59.25px;
+    left: 501.3px;
+    top: 255px;
+    background: linear-gradient(180deg, #DA1D6F 0%, #EE519E 100%);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+}
+.blurcircle7{
+    position: absolute;
+    border-radius: 50%;
+    width: 37px;
+    height: 34px;
+    left: 351px;
+    top: 255px;
+    background: linear-gradient(180deg, #DA1D6F 0%, #5157EE 100%);
+    box-shadow: 0px 4px 28px 3px rgba(0, 0, 0, 0.25);
+}
+.blurcircle8{
+    position: absolute;
+    border-radius: 50%;
+    width: 81px;
+    height: 69px;
+    left: 1034px;
+    top: 240px;
+    background: linear-gradient(180deg, #DA1D6F 0%, #9C39FF 100%);
+    box-shadow: 0px 4px 23px 18px rgba(0, 0, 0, 0.25);
+}
