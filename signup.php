@@ -7,7 +7,7 @@
         .heading{
             position: absolute;
             height: 59px;
-            left: 45%;
+            left: 590px;
             top: 100px;
             font-family: Ubuntu;
             font-style: normal;
@@ -20,7 +20,7 @@
         .rect{
             position: absolute;
             width: 100px;
-            height: 100px;
+            height: 250px;
             left: 669px;
             top: 881px;
             background: #EE519E;
@@ -31,10 +31,10 @@
         }
         .blurrect{
             position: absolute;
-            width: 500px;
-            height: 427.13px;
-            left: 35%;
-            top: 265px;
+            width: 800.06px;
+            height: 727.13px;
+            left: 329.7px;
+            top: 200px;
             background: rgba(196, 196, 196, 0.2);
             box-shadow: inset 2.49333px -2.49333px 2.49333px rgba(165, 165, 165, 0.6), inset -2.49333px 2.49333px 2.49333px rgba(255, 255, 255, 0.6);
             backdrop-filter: blur(50px);
@@ -83,7 +83,7 @@
             border-radius: 50%;
             width: 65px;
             height: 61px;
-            left: 65%;
+            left: 1119px;
             top: 615px;
             background: linear-gradient(180deg, #DA1D6F 0%, #EC7070 100%);
             box-shadow: 0px 4px 23px 18px rgba(0, 0, 0, 0.25);
@@ -114,17 +114,27 @@
             border-radius: 50%;
             width: 121.62px;
             height: 118.14px;
-            left: 34%;
+            left: 359.89px;
             top: 600px;
             background: linear-gradient(180deg, #DA1D6F 0%, #EE519E 100%);
             box-shadow: 0px 4px 45px 21px rgba(0, 0, 0, 0.25);
+        }
+        .blurcircle6{
+            position: absolute;
+            border-radius: 50%;
+            width: 122.63px;
+            height: 59.25px;
+            left: 501.3px;
+            top: 255px;
+            background: linear-gradient(180deg, #DA1D6F 0%, #EE519E 100%);
+            box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
         }
         .blurcircle7{
             position: absolute;
             border-radius: 50%;
             width: 37px;
             height: 34px;
-            left: 34.5%;
+            left: 321px;
             top: 255px;
             background: linear-gradient(180deg, #DA1D6F 0%, #5157EE 100%);
             box-shadow: 0px 4px 28px 3px rgba(0, 0, 0, 0.25);
@@ -134,79 +144,247 @@
             border-radius: 50%;
             width: 81px;
             height: 69px;
-            left: 65%;
+            left: 1084px;
             top: 240px;
             background: linear-gradient(180deg, #DA1D6F 0%, #9C39FF 100%);
             box-shadow: 0px 4px 23px 18px rgba(0, 0, 0, 0.25);
         }
-        .name{
-            position: absolute;
-            right: 55%;
-            top: 315px;
-            bottom: 84.95%;
-            font-family: Ubuntu;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18Px;
-            line-height: 15px;
-            color: #FFFFFF;
-        }
-        .namerect{
-            position: absolute;
-            width:285.29px;
-            right:40%;
-            top: 375px;
-            height:35.29px;
-            background: rgba(199, 207, 214, 0.1);
-            box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(64.3333px);
-            border-radius: 8px;
-            font-family: Open Sans;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 113.5%;
-            letter-spacing: -0.03em;
-            color: #FFFFFF;
-        }
-        .emailidrect{
-            position: absolute;
-            width:285.29px;
-            right:40%;
-            top: 480px;
-            height:35.29px;
-            background: rgba(199, 207, 214, 0.1);
-            box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(64.3333px);
-            border-radius: 8px;
-            font-family: Open Sans;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 113.5%;
-            letter-spacing: -0.03em;
-            color: #FFFFFF;
-        }
-        .message{
-            position: absolute;
-            right:52.5%;
-            top: 415px;
-            height:17px;
-            font-family: Ubuntu;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 21px;
-            text-transform: capitalize;
-            color: #FFFFFF;
-
-        }
+        .firstname{
+    position: absolute;
+    left: 25.94%;
+    top: 225px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.firstnamerect{
+    position: absolute;
+    width:285.29px;
+    left:25.94%;
+    top: 300px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.lastname{
+    position: absolute;
+    left: 50%;
+    top: 225px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.lastnamerect{
+    position: absolute;
+    width:285.29px;
+    left: 50%;
+    top: 300px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.doorno{
+    position: absolute;
+    left: 25.94%;
+    top: 350px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.doornorect{
+    position: absolute;
+    width:285.29px;
+    left: 25.94%;
+    top: 425px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.street{
+    position: absolute;
+    left: 50%;
+    top: 350px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.streetrect{
+    position: absolute;
+    width:285.29px;
+    left: 50%;
+    top: 425px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.city{
+    position: absolute;
+    left: 25.94%;
+    top: 475px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.cityrect{
+    position: absolute;
+    width:285.29px;
+    left: 25.94%;
+    top: 550px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.state{
+    position: absolute;
+    left: 50%;
+    top: 475px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.staterect{
+    position: absolute;
+    width:285.29px;
+    left: 50%;
+    top: 550px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.pincode{
+    position: absolute;
+    left: 25.94%;
+    top: 600px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.pincoderect{
+    position: absolute;
+    width:285.29px;
+    left: 25.94%;
+    top: 675px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.email{
+    position: absolute;
+    left: 50%;
+    top: 600px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.emailrect{
+    position: absolute;
+    width:285.29px;
+    left: 50%;
+    top: 675px;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.password{
+    position: absolute;
+    left: 25.94%;
+    top: 725px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.passwordrect{
+    position: absolute;
+    width:285.29px;
+    left: 25.94%;
+    top:800px ;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
+.confirmpassword{
+    position: absolute;
+    left: 50%;
+    top: 725px;
+    bottom: 75.59%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;    
+}
+.confirmpasswordrect{
+    position: absolute;
+    width:285.29px;
+    left: 50%;
+    top:800px ;
+    height:35.29px;
+    background: rgba(199, 207, 214, 0.1);
+    box-shadow: inset 32.1667px -32.1667px 32.1667px rgba(151, 157, 163, 0.1), inset -32.1667px 32.1667px 32.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64.3333px);
+    border-radius: 8px;
+}
         .sendbtn{
             position: absolute;
             width: 117px;
             height: 31px;
-            right:45.5%;
-            top: 645px;
+            right:50%;
+            top: 865px;
             background: #EE519E;
             border: 1px solid #000000;
             box-sizing: border-box;
@@ -219,55 +397,40 @@
             letter-spacing: -0.03em;
             color: #FFFFFF;
         }
-        .eyeicon{
-            position: absolute;
-            right:41%;
-            top: 485px;
-        }
-        .existuser{
-            position: absolute;
-            right:45.5%;
-            top: 550px;
-            font-family: Open Sans;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 17px;
-            line-height: 158%;
-            letter-spacing: -0.03em;
-            color: #FFFFFF;
-
-        }
     </style>
 </head>
 <body>
     <div class="heading">
-        <h3>SIGNUP</h3>
+        <h3>SIGN UP </h3>
     </div>
     <div class="blurcircle1"></div>
     <div class="blurcircle3"></div>
     <div class="blurcircle4"></div>
     <div class="blurcircle5"></div>
+    <div class="blurcircle6"></div>
     <div class="blurrect"></div>
     <div class="blurcircle2"></div>
     <div class="blurcircle7"></div>
     <div class="blurcircle8"></div>
-    <div class="name"><p>EMAIL</p></div>
-    <input class="namerect"></input>
-    <div class="message"><p>PASSWORD</p></div>
-    <input type="password" class="emailidrect" name="password" id="myInput" >
-    <img class=eyeicon id="eyeiconid" src="./pictures/eye_icon.png" alt="icon" onclick="myFunction()">
-    <p class="existuser">EXISTING USER ? <a href="./login.php">LOGIN</a></p>
-    <button class="sendbtn" onclick="window.location.href='login.php'">SUBMIT</button>
-    <div class="whatsappno"><p>WHATSAPP  :  9999999999</p></div>
-    <div class="emailid"><p>EMAIL  :  colourthreads@gmail.com</p></div>
-    <script>
-        function myFunction() {
-        var x = document.getElementById("myInput");
-        if (x.type === "password") {
-            x.type = "text";
-        } else {
-            x.type = "password";
-        }
-    }
-    </script>
+    <div class="firstname"><h3> FIRST NAME</h3></div>
+    <input type="text" class="firstnamerect" name="fname">
+    <div class="lastname"><h3> LAST NAME</h3></div>
+    <input type="text" class="lastnamerect" name="lname">
+    <div class="doorno"><h3> DOOR NO</h3></div>
+    <input type="text" class="doornorect" name="doorno">
+    <div class="street"><h3> STREET</h3></div>
+    <input type="text" class="streetrect" name="street">
+    <div class="city"><h3> CITY</h3></div>
+    <input type="text" class="cityrect" name="city">
+    <div class="state"><h3> STATE</h3></div>
+    <input type="text" class="staterect" name="state">
+    <div class="pincode"><h3> POSTAL CODE</h3></div>
+    <input type="text" class="pincoderect" name="pincode">
+    <div class="email"><h3> EMAIL</h3></div>
+    <input type="text" class="emailrect" name="email">
+    <div class="password"><h3>PASSWORD</h3></div>
+    <input type="text" class="passwordrect" name="password">
+    <div class="confirmpassword"><h3>RE-ENTER PASSWORD</h3></div>
+    <input type="text" class="confirmpasswordrect" name="confirmpassword">
+    <button class="sendbtn">SUBMIT</button>
 </body>

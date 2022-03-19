@@ -141,9 +141,9 @@
         }
         .name{
             position: absolute;
-            right: 55%;
+            right:52.5%;
             top: 315px;
-            bottom: 84.95%;
+            height:17px;
             font-family: Ubuntu;
             font-style: normal;
             font-weight: 500;
@@ -164,11 +164,12 @@
             font-family: Open Sans;
             font-style: normal;
             font-weight: normal;
-            font-size: 14px;
+            font-size: 18px;
             line-height: 113.5%;
             letter-spacing: -0.03em;
             color: #FFFFFF;
         }
+        
         .emailidrect{
             position: absolute;
             width:285.29px;
@@ -251,7 +252,7 @@
     <div class="blurcircle2"></div>
     <div class="blurcircle7"></div>
     <div class="blurcircle8"></div>
-    <div class="name"><p>EMAIL</p></div>
+    <div class="name"><p>FIRST NAME</p></div>
     <input class="namerect"></input>
     <div class="message"><p>PASSWORD</p></div>
     <input type="password" class="emailidrect" name="password" id="myInput" >
